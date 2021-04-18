@@ -1,0 +1,80 @@
+.uniDrop-toggle{
+    display: none;
+    z-index: 1;
+    background-color: rgb(90, 89, 89);
+    box-sizing: border-box;
+}
+
+.uniDrop-filter-toggle{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+.uniDrop-filter-txt-toggle{
+    padding: 6px 6px 6px 38px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    background-image: url("searchicon.png"); 
+    background-position: 10px 6px; 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    width: 80%;
+}
+
+.uniDrop-filter-txt-toggle:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.uniDrop-filter-txt-toggle:focus{
+    background-color: rgb(224, 224, 224);
+    outline: none;
+}
+
+#uni-filter2:not(:valid) ~ .clear-icon {
+	display: none;
+}
+
+
+
+
+
+
+.uniDrop-links-toggle{
+    column-count: 1;
+    column-fill: balance;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.uniDrop-links-toggle a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 0px;
+    margin: 10px 0;
+}
+
+.uniDrop-links-toggle li{
+    padding: 0px;
+}
+
+.uniDrop-links-toggle a:hover {
+    background-color: white;
+    color: rgb(97, 97, 97);
+    
+}
+
+

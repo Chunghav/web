@@ -1,0 +1,57 @@
+.sort-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sort-list h3{
+    padding: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+#sortByRank, #sortByAlpha{
+    font-size: 25px;
+    text-transform: lowercase;
+    padding: 10px 15px;
+    border: transparent;
+    outline: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#sortByRank:after, #sortByAlpha:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px white;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+#sortByRank:hover::after, #sortByAlpha:hover::after{
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+.sortState{
+    display: flex;
+    justify-content: center;
+}
+
+
+#currentSort{
+    color: rgb(184, 184, 184);
+    font-size: 14px;
+    text-transform: capitalize;
+}

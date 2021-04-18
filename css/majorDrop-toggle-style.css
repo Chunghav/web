@@ -1,0 +1,75 @@
+.majorDrop-toggle{
+    display: none;
+    z-index: 1;
+    background-color: rgb(90, 89, 89);
+    box-sizing: border-box;
+}
+
+.majorDrop-filter-toggle{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+.majorDrop-filter-txt-toggle{
+    padding: 6px 6px 6px 38px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    background-image: url("searchicon.png"); 
+    background-position: 10px 6px; 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 80%;
+    transition: 0.3s ease-in-out;
+}
+
+.majorDrop-filter-txt-toggle:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.majorDrop-filter-txt-toggle:focus{
+    background-color: rgb(224, 224, 224);
+    outline: none;
+}
+
+#major-filter2:not(:valid) ~ .clear-icon {
+	display: none;
+}
+
+
+
+.majorDrop-links-toggle{
+    column-count: 1;
+    column-rule: 1px solid white;
+    column-fill: balance;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.majorDrop-links-toggle a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 0px;
+    margin: 10px 0;
+}
+
+.majorDrop-links-toggle li{
+    padding: 0px;
+}
+
+.majorDrop-links-toggle a:hover {
+    background-color: white;
+    color: rgb(90, 89, 89);   
+}

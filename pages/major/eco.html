@@ -1,0 +1,550 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!--css styles-->
+    <link rel="stylesheet" href="../../css/style.css">  
+    <link rel="stylesheet" href="../../css/toggle-nav-style.css">
+    <link rel="stylesheet" href="../../css/media-screen-style.css">
+    <link rel="stylesheet" href="../../css/uniDrop-style.css">
+    <link rel="stylesheet" href="../../css/uniDrop-toggle-style.css">
+    <link rel="stylesheet" href="../../css/majorDrop-style.css">
+    <link rel="stylesheet" href="../../css/majorDrop-toggle-style.css">
+    <link rel="stylesheet" href="../../css/carousel-style.css">
+    <link rel="stylesheet" href="../../css/sortBtn-style.css">
+    <link rel="stylesheet" href="../../css/sortBtn-toggle-style.css">
+    <link rel="stylesheet" href="../../css/major-viewStyle.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Titillium+Web|Kanit:800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/fontAwesome/fontAwesome-4.7-link.css">
+    <link rel="icon" href="../../images/favicon.ico">
+    <script src="../../js/jquery/jquery.min.js"></script>
+
+    <!--slick css and js-->
+    <link rel="stylesheet" href="../../slick/slick.css">
+    <link rel="stylesheet" href="../../slick/slick-theme.css">
+
+    <script src="../../js/jquery-1.11.0.min.js"></script>
+    <script src="../../js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../../js/slick.min.js"></script>
+    <script src="../../js/fontAwesome-link.js"></script>
+ 
+    <!--js-->
+    <script src="../../js/filter.js"></script>
+    <script src="../../js/nav.js"></script>
+    <script src="../../js/slide.js"></script>
+    <script src="../../js/app.js"></script>
+    <script src="../../js/sort.js"></script>
+
+
+
+
+    <title>UNIVERSITY SCRAPER</title>
+</head>
+<body>
+
+        
+
+        <div class="logo">
+            <a href="../../index.html"><img src="../../images/LGO.jpg"></a>
+            <div class="subtext"><p>Find your ideal university right here</p></div>
+        </div>
+
+    <nav  class="topnav"> 
+        <ul class="navbar" id="topbar">
+                
+            <div class="nav-links">              
+                    <li><a href="#" id="uniDrop-nav">UNIVERSITY <i class="caret-icon1 fa fa-caret-down" style="display: inline; font-size: inherit;"></i></a></li>
+                    <li><a href="#" id="majorDrop-nav">MAJOR <i class="caret-icon2 fa fa-caret-down" style="display: inline; font-size: inherit;"></i></a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    <li><a href="../contact.html">CONTACT</a></li>    
+            </div>
+
+            <div class="toggle" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+            </div>
+
+        </ul>
+    </nav>
+
+
+
+
+    <!--All dropdown navigations-->
+
+    <div class="dropdown-container">
+
+                <!--toggle menu-->
+
+            <nav class="toggleMenu">
+
+            <div class="toggleNav">
+
+                
+
+            <!--toggle unidrop-->
+
+          <li><a id="uniDrop-toggle-nav">UNIVERSITY <i class="caret-icon3 fa fa-caret-down" style="display: inline; font-size: inherit;"></i></a></li>
+
+          <nav class="uniDrop-toggle">
+
+            <div class="uniDrop-filter-toggle">
+              <form>
+                <input class="uniDrop-filter-txt-toggle" required id="uni-filter2" type="text" placeholder="Filter university..">
+                <button class="clear-icon" type="reset"></button>
+              </form>
+            </div>
+
+
+
+            <!--sort list button-->
+
+            <div class="sort-list-toggle">
+
+              <div class="sort-title-toggle">
+                <h3>sort by :</h3>
+              </div>
+
+              <div class="sortByRank-toggle">
+                <button id="sortByRank-btn-toggle"><i class="rank-sort2 fa fa-sort-numeric-down"></i></button>
+              </div>
+
+              <div class="sortByAlpha-toggle">
+                <button id="sortByAlpha-btn-toggle"><i class="alpha-sort2 fa fa-sort-alpha-down"></i></button>
+              </div>
+
+            </div>
+
+            <!--university links toggle menu-->
+
+            <hr id="break-line">
+            <div class="uniDrop-links-toggle">
+
+                    <li id="1"><a href="1_ITC.html">Institute of Technology of Cambodia</a></li>
+                    <li id="2"><a href="">Royal University of Phnom Penh</a></li>
+                    <li id="3"><a href="">Royal University of Agriculture</a></li>
+                    <li id="4"><a href="">National Polytechnic Institute of Cambodia</a></li>
+                    <li id="5"><a href="">Paññasastra University of Cambodia</a></li>
+                    <li id="6"><a href="">University of Puthisastra</a></li>
+                    <li id="7"><a href="">The University of Cambodia</a></li>
+                    <li id="8"><a href="">Western University, Cambodia</a></li>
+                    <li id="9"><a href="">Build Bright University</a></li>
+                    <li id="10"><a href="">Norton University</a></li>
+                    <li id="11"><a href="">International University</a></li>
+                    <li id="12"><a href="">Cambodian Mekong University</a></li>
+                    <li id="13"><a href="">National University of Management</a></li>
+                    <li id="14"><a href="">Asia Euro University</a></li>
+                    <li id="15"><a href="">Prek Leap National College of Agriculture</a></li>
+                    <li id="16"><a href="">American University of Phnom Penh</a></li>
+                    <li id="17"><a href="">University of Battambang</a></li>
+                    <li id="18"><a href="">Royal University of Law and Economics</a></li>
+                    <li id="19"><a href="">Zaman University</a></li>
+                    <li id="20"><a href="">Royal University of Fine Arts</a></li>
+                    <li id="21"><a href="">CamEd Business School</a></li>
+                    <li id="22"><a href="">Université des Sciences de la Santé</a></li>
+                    <li id="23"><a href="">Vanda Institute</a></li>
+                    <li id="24"><a href="">Svay Rieng University</a></li>
+                    <li id="25"><a href="">University of Southeast Asia</a></li>
+                    <li id="26"><a href="">Cambodia University for Specialties</a></li>
+                    <li id="27"><a href="">Angkor University</a></li>
+                    <li id="28"><a href="">Phnom Penh International University</a></li>
+                    <li id="29"><a href="">University of Management and Economics</a></li>
+                    <li id="30"><a href="">IIC University of Technology</a></li>
+                    <li id="31"><a href="">Chamroeun University of Polytechnology</a></li>
+                    <li id="32"><a href="">Economics and Finance Institute</a></li>
+                    <li id="33"><a href="">Life University, Cambodia</a></li>
+                    <li id="34"><a href="">Human Resources University</a></li>
+                    <li id="35"><a href="">École Royale d'Administration</a></li>
+                    <li id="36"><a href="">Phnom Penh Institute of Technology</a></li>
+                    <li id="37"><a href="">Chea Sim University of Kamchaymear</a></li>
+                    <li id="38"><a href="">National Institute of Education</a></li>
+                    <li id="39"><a href="">Royal Academy of Cambodia</a></li>
+                    <li id="40"><a href="">Panha Chiet University</a></li>
+                    <li id="41"><a href="">National Institute of Business</a></li>
+                    <li id="42"><a href="">Dewey International University</a></li>
+                    <li id="43"><a href="">Khemarak University</a></li>
+                    <li id="44"><a href="">Khmer University of Technology and Management</a></li>
+                    <li id="45"><a href="">Beltei International University</a></li>
+                    <li id="46"><a href="">Limkokwing University of Creative Technology</a></li>
+                    <li id="47"><a href="">Mean Chey University</a></li>
+                    <li id="48"><a href="">Kampong Cham National School of Agriculture</a></li>
+                    <li id="49"><a href="">Preah Sihanouk Raja Buddhist University</a></li>
+                    <li id="50"><a href="">Chenla University</a></li>
+
+            </div>
+
+
+          </nav>
+
+
+
+          <!--toggle majorDrop-->
+
+          <li><a id="majorDrop-toggle-nav">MAJOR <i class="caret-icon4 fa fa-caret-down" style="display: inline; font-size: inherit;"></i></a></li>
+
+          <nav class="majorDrop-toggle">
+            <div class="majorDrop-filter-toggle">
+              <form>
+                <input class="majorDrop-filter-txt-toggle" required id="major-filter2" type="text" placeholder="Filter major..">
+                <button class="clear-icon" type="reset"></button>
+              </form>
+            </div>
+
+            <hr id="break-line">
+            <div class="majorDrop-links-toggle">
+              <li><a href="#">Accounting</a></li>
+              <li><a href="#">Agriculture</a></li>
+              <li><a href="#">Architecture</a></li>
+              <li><a href="#">Arts</a></li>
+              <li><a href="#">Biology</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Computer Science</a></li>
+              <li><a href="#">Economics</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Engineering</a></li>
+              <li><a href="#">Finance</a></li>
+              <li><a href="#">Foreign Language</a></li>
+              <li><a href="#">Health Science</a></li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Political Science</a></li>
+              <li><a href="#">Psychology</a></li>
+              <li><a href="#">Tourism and Hospitality</a></li>
+
+            </div>
+          </nav>
+
+                            <li><a href="../about.html">ABOUT</a></li>
+                            <li><a href="../contact.html">CONTACT</a></li>   
+                    </div>
+                </nav> 
+
+
+
+
+
+
+                <!--main unidrop-->
+        
+                <nav class="uniDrop">
+        
+                    <div class="uniDrop-filter">
+                        <form>
+                            <input class="uniDrop-filter-txt" required id="uni-filter1" type="text" placeholder="Filter university..">
+                            <button class="clear-icon" type="reset"></button>
+                        </form>
+                    </div>
+
+                    <!--sort list button-->
+
+                    <div class="sort-list">
+
+                        <div class="sort-title">
+                          <h3>sort by :</h3>
+                        </div>
+              
+                        <div class="sortByRank">
+                          <button id="sortByRank">Rank</button>
+                        </div>
+              
+                        <div class="sortByRank">
+                          <button id="sortByAlpha">A-Z</button>
+                        </div>
+              
+                      </div>
+
+                      <div class="sortState">
+                        <p id="currentSort">(sorted by ranking)</p>     <!--Sort state-->
+                      </div>
+
+                    <!--unidrop links-->
+        
+                    <div class="uniDrop-links">
+
+                      <li id="1"><a href="../university/1_ITC.html">Institute of Technology of Cambodia (1)</a></li>
+                      <li id="2"><a href="../university/2_RUPP.html">Royal University of Phnom Penh (2)</a></li>
+                      <li id="3"><a href="../university/3_RUA.html">Royal University of Agriculture (3)</a></li>
+                      <li id="4"><a href="../university/4_NPIC.html">National Polytechnic Institute of Cambodia (4)</a></li>
+                      <li id="5"><a href="../university/5_PUC.html">Paññasastra University of Cambodia (5)</a></li>
+                      <li id="6"><a href="../university/6_UP.html">University of Puthisastra (6)</a></li>
+                      <li id="7"><a href="../university/7_UC.html">The University of Cambodia (7)</a></li>
+                      <li id="8"><a href="../university/8_WU.html">Western University, Cambodia (8)</a></li>
+                      <li id="9"><a href="../university/9_BBU.html">Build Bright University (9)</a></li>
+                      <li id="10"><a href="../university/10_NU.html">Norton University (10)</a></li>
+                      <li id="11"><a href="../university/11_IU.html">International University (11)</a></li>
+                      <li id="12"><a href="../university/12_CMU.html">Cambodian Mekong University (12)</a></li>
+                      <li id="13"><a href="../university/13_NUM.html">National University of Management (13)</a></li>
+                      <li id="14"><a href="../university/14_AEU.html">Asia Euro University (14)</a></li>
+                      <li id="15"><a href="../university/15_PNSA.html">Prek Leap National College of Agriculture (15)</a></li>
+                      <li id="16"><a href="../university/16_AUPP.html">American University of Phnom Penh (16)</a></li>
+                      <li id="17"><a href="../university/17_UBB.html">University of Battambang (17)</a></li>
+                      <li id="18"><a href="../university/18_RULE.html">Royal University of Law and Economics (18)</a></li>
+                      <li id="19"><a href="../university/19_ZamanU.html">Zaman University (19)</a></li>
+                      <li id="20"><a href="../university/20_RUFA.html">Royal University of Fine Arts (20)</a></li>
+                      <li id="21"><a href="../university/21_Camed.html">CamEd Business School (21)</a></li>
+                      <li id="22"><a href="../university/22_UHS.html">University of Health Sciences (22)</a></li>
+                      <li id="23"><a href="../university/23_VI.html">Vanda Institute (23)</a></li>
+                      <li id="24"><a href="../university/24_SRU.html">Svay Rieng University (24)</a></li>
+                      <li id="25"><a href="../university/25_usea.html">University of Southeast Asia (25)</a></li>
+                      <li id="26"><a href="../university/26_CUS.html">Cambodia University for Specialties (26)</a></li>
+                      <li id="27"><a href="../university/27_AU.html">Angkor University (27)</a></li>
+                      <li id="28"><a href="../university/28_PPIU.html">Phnom Penh International University (28)</a></li>
+                      <li id="29"><a href="../university/29_UME.html">University of Management and Economics (29)</a></li>
+                      <li id="30"><a href="../university/30_IIC.html">IIC University of Technology (30)</a></li>
+                      <li id="31"><a href="../university/31_CUP.html">Chamroeun University of Polytechnology (31)</a></li>
+                      <li id="32"><a href="../university/32_EFI.html">Economics and Finance Institute (32)</a></li>
+                      <li id="33"><a href="../university/33_LU.html">Life University, Cambodia (33)</a></li>
+                      <li id="34"><a href="../university/34_HRU.html">Human Resources University (34)</a></li>
+                      <li id="35"><a href="../university/35_ERD.html">École Royale d'Administration (35)</a></li>
+                      <li id="36"><a href="../university/36_PPIT.html">Phnom Penh Institute of Technology (36)</a></li>
+                      <li id="37"><a href="../university/37_CSUK.html">Chea Sim University of Kamchaymear (37)</a></li>
+                      <li id="38"><a href="../university/38_NIE.html">National Institute of Education (38)</a></li>
+                      <li id="39"><a href="../university/39_RAC.html">Royal Academy of Cambodia (39)</a></li>
+                      <li id="40"><a href="../university/40_PCU.html">Panha Chiet University (40)</a></li>
+                      <li id="41"><a href="../university/41_NIB.html">National Institute of Business (41)</a></li>
+                      <li id="42"><a href="../university/42_DIU.html">Dewey International University (42)</a></li>
+                      <li id="43"><a href="../university/43_KU.html">Khemarak University (43)</a></li>
+                      <li id="44"><a href="../university/44_KUTM.html">Khmer University of Technology and Management (44)</a></li>
+                      <li id="45"><a href="../university/45_BELTEI.html">Beltei International University (45)</a></li>
+                      <li id="46"><a href="../university/46_LUCT.html">Limkokwing University of Creative Technology (46)</a></li>
+                      <li id="47"><a href="../university/47_MCU.html">Mean Chey University (47)</a></li>
+                      <li id="48"><a href="../university/48_KCNSA.html">Kampong Cham National School of Agriculture (48)</a></li>
+                      <li id="49"><a href="../university/49_PSRBU.html">Preah Sihanouk Raja Buddhist University (49)</a></li>
+                      <li id="50"><a href="../university/50_CLU.html">Chenla University (50)</a></li>
+          
+                  </div>
+        
+                </nav>
+
+
+
+
+
+
+                <!--main majorDrop-->
+        
+                <nav class="majorDrop">
+                        <div class="majorDrop-filter">
+                            <form>
+                                <input class="majorDrop-filter-txt" required id="major-filter1" type="text"  placeholder="Filter major..">
+                                <button class="clear-icon" type="reset"></button>
+                            </form>
+                        </div>
+        
+                        <div class="majorDrop-links">
+                          <li><a href="accounting.html">Accounting</a></li>
+          <li><a href="agriculture.html">Agriculture</a></li>
+          <li><a href="architecture.html">Architecture</a></li>
+          <li><a href="art.html">Arts</a></li>
+          <li><a href="bio.html">Biology</a></li>
+          <li><a href="business.html">Business</a></li>
+          <li><a href="finance.html">Finance</a></li>
+          <li><a href="tech.html">Information Technology</a></li>
+          <li><a href="eco.html">Economics</a></li>
+          <li><a href="edu.html">Education</a></li>
+          <li><a href="engineer.html">Engineering</a></li>
+          <li><a href="lang.html">Foreign Language</a></li>
+          <li><a href="health.html">Health Science</a></li>
+          <li><a href="law.html">Law</a></li>
+          <li><a href="math.html">Mathematics</a></li>
+          <li><a href="politic.html">Political Science</a></li>
+          <li><a href="human.html">Humanities</a></li>
+          <li><a href="tour.html">Tourism and Hospitality</a></li>
+                        </div>
+                </nav>
+        
+    </div>
+    
+
+    <!--Major Overview-->
+        
+    <div class="major-wrap">
+      <div class="eco">   <!--change this class name according to other majors-->
+          <div class="major-title">
+            <h1>Economics</h1>
+          </div>
+      </div>
+
+      <div class="major-wrapper">   <!--wrapper of major-->
+
+      <div class="major-info">             <!--Overview-->
+
+        <div class="major-description">
+          
+              <h2>Description</h2>  
+          
+          <p>
+            A general program that focuses on the systematic study of the production, conservation and allocation of resources in conditions of scarcity, together with the organizational frameworks related to these processes. Includes instruction in economic theory, micro- and macroeconomics, comparative economic systems, money and banking systems, international economics, quantitative analytical methods, and applications to specific industries and public policy issues.        
+        
+        </p>
+
+        </div> <!--end major description-->
+      
+        <div class="major-overview">
+          
+              <h2>
+                Overview 
+              </h2>
+            
+
+            <p>
+              Majoring in economics might be the right choice for you if you’d like to use analytical reasoning to study behavioral patterns, policy problems or business practices. The critical thinking skills a degree in economics can help you develop are useful in many fields. Though students planning for a career in business may be inclined to study economics, the discipline can also be relevant to those interested in law, medicine, government and other paths. If you have strong logical reasoning skills, consider yourself a good problem solver or ever find yourself thinking about how the world could run more efficiently, you might consider enrolling in an economics course.
+
+
+            </p>
+                
+        </div> <!--end major overview-->
+
+    </div>  <!--end major info-->
+
+
+
+    <div class="major-info">             <!--Courses and Careers-->
+
+      <div class="major-overview" style="border: 2px solid rgba(51, 51, 51, 0.5);
+                                        border-radius: 30px; width: 55%;
+                                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+       
+            <h2>Major's courses</h2>  
+       
+
+        <p>
+            The required and elective courses you would take for <strong>Economics</strong> majors vary considerably among institutions. Courses are listed here that are illustrative of the breadth of topics you are likely to experience were you to major in this field.        </p>
+
+        <div class="course">          <!--Courses-->
+            <li>Economic Development</li>
+            <li>Economic Theory</li>
+            <li>Government and Industry</li>
+            <li>International Economics</li>
+            <li>Money and Banking</li>
+            <li>Public Finance</li>
+            <li>Statistics, etc..</li>            
+        </div>
+        
+
+      
+      </div> 
+    
+      <div class="major-description" style="width: 30%;">
+            <h2>
+              Future Careers
+            </h2>
+
+          <div class="career">        <!--Careers-->
+            
+                <li>Economists</li>
+                <li>survey researchers</li>
+                <li>economic teachers</li>
+                <li>financial analysts</li>
+                <li>financial advisors</li>
+                <li>managers</li>
+                
+                <li>etc..</li>
+
+          </div>
+
+          <h2>
+            expected salaries
+          </h2>
+
+          <div class="salary">      <!--Salaries-->
+            <li>Range : 300$ - 1500$</li>
+            <li>median : 900$</li>
+            <p>*estimation from different sources</p>
+          </div>
+
+
+
+      </div> 
+
+  </div>  <!--End Courses and Careers-->
+
+
+  <div class="major-uni">
+
+      <h2>universities offer economic degrees</h2>
+
+      <div class="uni">
+        
+        <li><a href="../university/5_PUC.html">Paññasastra university of Cambodia</a></li>
+        <li><a href="../university/10_NU.html">Norton University</a></li>
+        <li><a href="../university/11_IU.html">International University</a></li>
+        <li><a href="../university/13_NUM.html">National University of Management</a></li>
+        <li><a href="../university/14_AEU.html">Asia Euro University</a></li>
+        <li><a href="../university/18_RULE.html">Royal University of Law and Economics</a></li>
+        <li><a href="../university/19_ZamanU.html">Zaman University</a></li>
+        <li><a href="../university/25_usea.html">University of Southeast Asia</a></li>
+        <li><a href="../university/26_CUS.html">Cambodia University for Specialties</a></li>
+        <li><a href="../university/28_PPIU.html">Phnom Penh International University</a></li>
+        <li><a href="../university/29_UME.html">University of Management and Economics</a></li>
+        <li><a href="../university/30_IIC.html">IIC University Of Technology</a></li>
+        <li><a href="../university/32_EFI.html">Economics and Finance Institute</a></li>
+        <li><a href="../university/34_HRU.html">Human Resources University</a></li>
+        <li><a href="../university/35_ERD.html">École Royale d'Administration</a></li>
+        <li><a href="../university/37_CSUK.html">Chea Sim University Of Kamchaymear</a></li>
+        <li><a href="../university/38_NIE.html">National Institute of Education</a></li>
+        <li><a href="../university/40_PCU.html">Panha Chiet University</a></li>
+        <li><a href="../university/43_KU.html">Khemarak University</a></li>
+
+
+
+      </div>
+
+      
+
+  </div>
+
+
+    </div> <!--end major wrap-->
+
+    <button id="goTopBtn" onclick="goTop()"><i class="fa fa-chevron-circle-up"></i></button>
+
+</body>
+
+  <!--start of footer-->
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="top-footer">
+
+            <div class="explore">
+                <h3>Explore</h3>
+                <div class="explore-list">
+                    <li><a href="../../index.html">home</a></li>
+                    <li><a href="../about.html">about</a></li>
+                    <li><a onclick="goTop()">Scroll to top</a></li>
+                </div>
+            </div>
+
+            <div class="contact">
+                <h3>contact us</h3>
+                <div class="contact-list">
+                   <p><i class="fa fa-envelope"></i> info@university-scraper.com</p>
+                   <p><i class="fa fa-comments"></i> <a href="../contact.html">Contact via form</a></p>
+                </div>
+            </div>
+
+            <!--Flag counter-->
+
+        <div class="Fcounter">
+          <a href="https://info.flagcounter.com/xxAO"><img src="https://s05.flagcounter.com/count2/xxAO/bg_333333/txt_FFFFFF/border_333333/columns_2/maxflags_12/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+        </div>
+
+        </div>
+
+        <hr id="break-line">
+
+        <div class="bottom-footer">
+                <h3><strong>UNIVERSITY SCRAPER</strong></h3>
+                <p>© Copyright 2019 All Rights Reserved.</p>
+        </div>
+
+    </div>
+</footer>
+
+</html>

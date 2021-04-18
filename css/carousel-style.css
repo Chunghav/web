@@ -1,0 +1,11 @@
+.carousel-main{
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 480px;
+}
+
+.slide1 img, .slide2 img{
+    width: 100%;
+    height: 100%;
+}

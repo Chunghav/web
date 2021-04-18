@@ -1,0 +1,473 @@
+.overview-container{
+    height: fit-content;
+}
+
+
+
+
+
+
+
+
+
+.uni-overview{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/University/uniback2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+
+
+
+
+.uni-title{
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.uni-logo img{
+    width: 160px;
+    height: 160px;
+}
+
+
+
+
+.title-txt{
+    float: left;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.4);
+    border-radius: 35px;
+    
+}
+
+.title-txt h1{
+    color: white;
+    font-size: 38px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 13px;
+}
+
+.title-txt p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 13px;
+}
+
+.title-txt a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title-txt a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+.uni-BriefInfo{
+    width: 80%;
+    margin: 0 10%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    background: #333;
+}
+
+
+
+
+
+.tooltip i{
+    font-size: 13px;
+    color: rgb(202, 202, 202);
+    opacity: .6;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #fff;
+    color: black;
+    opacity: .9;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
+    line-height: normal;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 180%;
+    left: 50%;
+    margin-left: -100px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip i:hover{
+      opacity: .85;
+  }
+
+
+
+
+  .brief-info{
+      padding: 0;
+  }
+
+
+  .brief-info label{
+      font-size: 17px;
+      color: rgb(204, 204, 204);
+  }
+
+  .brief-content p{
+      margin-top: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: capitalize;
+      color: rgb(255, 255, 255);
+  }
+
+
+
+
+
+
+
+
+.overview-info{
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+
+
+  .uni-detail{
+      margin-top: 20px;
+      padding: 10px;
+      width: 50%;
+  }
+
+.uni-detail ul{
+    margin-bottom: 30px;
+    border-bottom: 5px solid #333;
+    text-align: center;
+}
+
+
+.uni-detail h2{
+    padding: 7px;
+    font-size: 24px;
+}
+
+.uni-detail p{
+    padding: 10px;
+    display: block;
+    line-height: 2.5;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+
+
+
+
+
+
+
+
+.uni-major{
+    height: fit-content;
+    margin-top: 20px;
+      padding: 10px;
+      width: 35%;
+      border: 2px solid rgba(51, 51, 51, 0.5);
+      border-radius: 30px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.uni-major h2{
+    text-align: center;
+    padding: 7px;
+    font-size: 24px;
+    border-bottom: 5px solid #333;
+    margin-bottom: 20px;
+}
+
+.uni-major-list{
+    padding: 10px;
+}
+
+.uni-major-list li{
+    list-style-type: decimal;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.uni-major-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.uni-major-list a:hover{
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid #333333;
+}
+
+.uni-major-list p{
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 2;
+    color: rgb(94, 94, 94);
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+.degree-level-list{
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.degree-level-list li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left: 110px;
+}
+
+.degree-level-list li::before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+
+
+
+
+
+
+.campus-list li{
+    list-style-type: none;
+    padding: 15px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.campus-link a{
+    color: #333;
+    font-size: 18px;
+    margin-left: 20px;
+    text-transform: lowercase;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    opacity: .6;
+    
+}
+
+.campus-link a:hover{
+    opacity: 1;
+}
+
+
+.campus-list li::before{
+    content: "\f35a";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; 
+    width: 1.5em;
+}
+
+
+
+
+
+.FMI-list, .campus-list{
+    padding: 40px 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+.campus-link{
+    column-count: 2;
+    column-fill: balance;
+}
+
+.campus-list{
+    padding-bottom: 0;
+}
+
+
+
+.FMI-list h1, .campus-list h1{
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 5px solid #333;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.FMI-list li{
+    padding: 15px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.FMI-list a{
+    color: dodgerblue;
+    margin-left: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+
+.FMI-list a:hover{
+    border-bottom: 1px solid dodgerblue;
+}
+
+
+
+
+
+
+
+.map-embed-title{
+    padding: 0px 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.map-embed-title h1{
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 5px solid #333;
+    padding: 7px;
+}
+
+
+.map-embed{
+    box-sizing: border-box;
+    justify-content: space-around;
+    display: flex;
+    padding: 50px 0 0;
+    width: 100%;
+}
+
+
+.mapouter{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+.readMore{
+    text-align: right;
+    padding: 10px;
+}
+
+.readMore button{
+    border: transparent;
+    outline: none;
+    background-color: transparent;
+}
+
+.readMore img{
+    width: 110px;
+    opacity: .65;
+    border-radius: 100px;
+    transition: 0.2s ease-in-out;
+}
+
+.readMore img:hover{
+    opacity: .85;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+  #line{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-style: groove;
+    border-width: 1px;
+  }
+
+  
+
+  .brief-wrapper{
+      width: 85%;
+      box-sizing: border-box;
+      position: relative;
+      top: -50px;
+      background-color: transparent;
+      margin-left: 7.5%;
+  }

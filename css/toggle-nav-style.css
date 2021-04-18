@@ -1,0 +1,63 @@
+.toggle{
+    cursor: pointer;
+    padding: 12px;
+    display: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+  
+  .change .bar1{
+      transform: rotate(-45deg) translate(-9px, 6px);
+
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3{
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+
+
+
+.toggleMenu{
+    display: none;
+    background-color: rgba(51, 51, 51, 0.9);  
+    box-sizing: border-box;
+    position: sticky;
+    top: 10px;
+    
+}
+
+.toggleNav{
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+    position: sticky;
+}
+
+.toggleNav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.toggleNav a:hover{
+    background-color: white;
+    color: black;
+}

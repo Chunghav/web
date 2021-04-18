@@ -1,0 +1,88 @@
+.uniDrop{
+    display: none;
+    z-index: 9;
+    background-color: rgba(51, 51, 51, 0.9);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.uniDrop-filter{
+    padding: 20px 20px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+.uniDrop-filter-txt{
+    padding: 6px 6px 6px 38px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: none;
+    background-image: url("searchicon.png"); 
+    background-position: 10px 6px; 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out;
+    width: 180px;
+}
+
+.uniDrop-filter-txt:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.uniDrop-filter-txt:focus{
+    background-color: rgb(224, 224, 224);
+    outline: none;
+    width: 300px;
+}
+
+
+#uni-filter1:not(:valid) ~ .clear-icon {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.uniDrop-links{
+    column-count: 2;
+    column-rule: 1px solid white;
+    column-fill: balance;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.uniDrop-links li{
+    padding: 20px 0px;
+    margin-right: 150px;
+    text-align: right;
+    
+}
+
+.uniDrop-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    width: auto;
+    transition: 0.2s ease-in-out;
+}
+
+.uniDrop-links a:hover{
+    border-bottom: 5px solid white;
+}
+
+
+
+
