@@ -48,17 +48,18 @@ function checkValidation(element, error) {
         UserName: userName,
         PhoneNumber: phone,
         Password: password,
-
+        
 
     });
-    console.log("Data saved")
-    //alert
- alert("Your Form Has Been Submitted Successfully")
+    
+    
 
 
    }).catch(function(error){
-       //alert
-    alert("Please input in textbox!!")
+    console.log("Data saved")
+    //alert
+ alert("Your Form Has Been Submitted Successfully")
+       location.replace("../New_University_Scraper/login.html");
     var errorcode=error.code;
     var errormsg=error.message;
 
