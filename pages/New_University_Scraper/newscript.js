@@ -48,24 +48,23 @@ function checkValidation(element, error) {
         UserName: userName,
         PhoneNumber: phone,
         Password: password,
-        
 
     });
     
-    
-
-
-   }).catch(function(error){
     console.log("Data saved")
     //alert
  alert("Your Form Has Been Submitted Successfully")
-       location.replace("../New_University_Scraper/login.html");
+
+
+   }).catch(function(error){
+       //alert
+    alert("Please input in textbox!!")
     var errorcode=error.code;
     var errormsg=error.message;
 
    });
  
-
+  
   }//end register
 
   function login(event){
